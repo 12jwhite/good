@@ -1,0 +1,109 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+a {
+    color: red;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    min-height: 100vh;
+}
+header {
+    padding: 20px;
+    position: fixed;
+    background-color: rgb(0,0,0,0.5);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    backdrop-filter: blur(3px);
+}
+
+header img {
+    width: 80px;
+}
+
+header ul {
+    float: right;
+    list-style: none;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+header li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+header a {
+    text-decoration: none;
+    border: red solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header a:hover {
+    background-color: red;
+    color: white;
+    transition: 2s;
+}
+
+main {
+    padding-top: 120px;;
+}
+main p {
+    height: 200px;
+}
+.middleCenter {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.but-feel {
+    border: none;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px 35px;
+    background-color: red;
+    color: orange;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: (rgb 0,0,0,0.01);
+    padding-left: 20px;
+    color: red;
+}
+
+.gridSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    color: blue;
+}
+.gridCol {
+    background-color: red;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+button {
+    border-radius: 10px;
+    padding: 20px;
+    border-color: brown;
+    background-color: orange;
+}
